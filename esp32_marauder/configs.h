@@ -907,12 +907,12 @@
       #define CHAN_PER_PAGE 7
 
       #define SCREEN_CHAR_WIDTH 40
-      //#define TFT_MISO 19
-      #define TFT_MOSI 15
-      #define TFT_SCLK 13
-      #define TFT_CS 5
-      #define TFT_DC 23
-      #define TFT_RST 18
+      #define TFT_MISO 13
+      #define TFT_MOSI 11
+      #define TFT_SCLK 12
+      #define TFT_CS 10
+      #define TFT_DC 8
+      #define TFT_RST 9
       #define TFT_BL -1
       #define TOUCH_CS -1
       //#define SD_CS 1
@@ -924,11 +924,11 @@
       #define BANNER_TEXT_SIZE 1
 
       #ifndef TFT_WIDTH
-        #define TFT_WIDTH 135
+        #define TFT_WIDTH 240
       #endif
 
       #ifndef TFT_HEIGHT
-        #define TFT_HEIGHT 240
+        #define TFT_HEIGHT 320
       #endif
 
       #define GRAPH_VERT_LIM TFT_HEIGHT/2 - 1
