@@ -18,9 +18,9 @@
   //#define MARAUDER_V7
   //#define MARAUDER_V7_1
   //#define MARAUDER_KIT
-  #define GENERIC_ESP32
+  //#define GENERIC_ESP32
   //#define MARAUDER_FLIPPER
-  //#define MARAUDER_MULTIBOARD_S3
+  #define MARAUDER_MULTIBOARD_S3
   //#define ESP32_LDDB
   //#define MARAUDER_DEV_BOARD_PRO
   //#define XIAO_ESP32_S3
@@ -437,7 +437,7 @@
     //#define HAS_BUTTONS
     //#define HAS_NEOPIXEL_LED
     //#define HAS_PWR_MGMT
-    //#define HAS_SCREEN
+    #define HAS_SCREEN
     #define HAS_GPS
     #define HAS_SD
     #define USE_SD
@@ -903,7 +903,7 @@
   //// DISPLAY DEFINITIONS
   #ifdef HAS_SCREEN
 
-    #ifdef GENERIC_ESP32
+    #ifdef MARAUDER_MULTIBOARD_S3
       #define CHAN_PER_PAGE 7
 
       #define SCREEN_CHAR_WIDTH 40
