@@ -6,7 +6,7 @@
 
   #define POLISH_POTATO
 
-  //#define DEVELOPER
+  //#define DEVELOPER 
 
   //// BOARD TARGETS
   //#define MARAUDER_M5STICKC
@@ -36,7 +36,7 @@
   //#define MARAUDER_PANCAKE
   //#define MARAUDER_MINI_V3
   //#define MARAUDER_M5_NANO_C6
-  //#define DUAL_MINI_C5
+  //#define DUAL_MINI_C5 
   //// END BOARD TARGETS
 
   #define JSON_SETTING_SIZE 2048
@@ -3132,3 +3132,4 @@
   #endif
 
 #endif
+ 
